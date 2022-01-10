@@ -26,3 +26,92 @@ header>ul>li:hover{
     color: red;
  ;
 }
+
+/* inside main*/
+body > main {
+    position: relative;
+}
+
+main > nav {
+    width: 270px;
+    background-color: #4d1da7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color: white;
+}
+
+main > nav > ul {
+    list-style: none;
+    font-size: 25px;
+    margin-top: 39px;
+}
+
+main > nav > ul > li {
+    padding-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+main > nav > ul > li > a {
+    text-decoration: none;
+    color: #f3f1f1;
+    padding-bottom: 4px;
+    margin-left: 13px;
+}
+
+main > nav > ul > li > a:hover {
+    color: orange;
+}
+
+main > section {
+    margin-left: 270px;
+    padding: 10px;
+    min-height: 587px;
+}
+
+main > section > section {
+    height: 300px;
+    position: relative;
+}
+
+main > section > section > div {
+    position: absolute;
+    height: 100%;
+    width: calc(100% / 3);
+}
+
+main > section > section > div:nth-child(1) {
+    border-right: 5px solid white;
+    left: 0;
+    background-image: url("../images/5973466.png");
+    background-size: cover;
+}
+
+main > section > section > div:nth-child(2) {
+    border-left: 5px solid white;
+    left: calc(100% / 3);
+    background-image: url("../images/html.jpg");
+    background-size: cover;
+}
+
+main > section > section > div:nth-child(3) {
+    left: calc((100% / 3) * 2);
+    border-left: 5px solid white;
+    background-image: url("../images/javascript.jpg");
+    background-size: cover;
+}
+
+
+/* footer */
+body>footer{
+    height: 60px;
+    background-color: #585151;
+}
+
+body>footer>p{
+    margin-top: 0;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
