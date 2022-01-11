@@ -13,6 +13,7 @@
             <li > <a href="https://www.figma.com/file/Ug998S1ZXIUaITTReGLJC5/MyProfile(Amila-Ravinga)?node-id=353%3A2">Mockup</a></li>
             <li > <a href="https://amilaravinga.github.io/MyProfile/">Github Pages URL for MyProfile</a></li>
             <li > <a href="https://amilaravingawijethunga.000webhostapp.com/">000WebHost URL</a></li>
+            <li > <a href="https://drive.google.com/drive/folders/1SsNGxOFVE9lL5QoIQhfO_mOb5DG4TuLD?usp=sharing">Html /Css Note</a></li>
         </ul>
     </body>
 </html>
