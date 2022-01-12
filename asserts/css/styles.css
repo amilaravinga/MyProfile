@@ -1,0 +1,782 @@
+/*-----------------------------Header Start----------------------------*/
+
+body > header div:nth-child(1) {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 70px;
+}
+
+body > header > div > nav {
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 0;
+}
+
+body > header > div > nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+body > header > div > nav > ul > li {
+    display: inline-block;
+}
+
+body > header > div > nav > ul > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #E67E22;
+    text-decoration-width: auto;
+}
+
+body > header > div > nav > ul > li > a {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    list-style: none;
+    text-decoration: none;
+    color: #eeeeee;
+    padding-right: 20px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body > header div:nth-child(2) > img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    left: 0;
+}
+
+body > header div:nth-child(3) {
+    position: fixed;
+    z-index: -3;
+    width: 100%;
+    height: 70px;
+    background-color: #E67E22;
+    opacity: 0.07;
+}
+
+
+/*-----------------------------Header End----------------------------*/
+
+/*-----------------------------Contact Me button start-----------------*/
+body > main > div {
+    position: fixed;
+    width: 135px;
+    height: 45px;
+    right: 30px;
+    bottom: 40%;
+    transform: translateX(0%);
+    z-index: 3;
+}
+
+body > main > div > button {
+    position: relative;
+    width: 100%;
+    height: 68%;
+    background-color: #F1C40F;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+body > main > div > button:hover {
+    background-color: transparent;
+    border: 2px solid #F1C40F;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*-----------------------------Contact Me button End-----------------*/
+
+
+/*-----------------------------Home Start----------------------------*/
+
+body > main > .Home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+body > main > .Home > img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#hi {
+    position: absolute;
+    color: #E67E22;
+    font-size: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 40%;
+    left: 10%;
+}
+
+#dash {
+    position: absolute;
+    color: #E67E22;
+    font-size: 130px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 33%;
+    left: 17%;
+}
+
+.Home > p {
+    color: #fff;
+    top: 60%;
+    left: 10%;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+}
+
+
+/*-----------------------------Home End----------------------------*/
+
+/*-----------------------------About Me Start----------------------------*/
+
+.AboutMe {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.AboutMe > img:nth-child(1) {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    filter: opacity(200%);
+}
+
+.AboutMe > img:nth-child(2) {
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    left: 100px;
+    top: 90px;
+    transform: rotate(-5deg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30% 0px 30% 30%;
+    box-shadow: 20px 20px 500px -50px #ffffff;
+}
+
+.AboutMe > div {
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    color: white;
+}
+
+.AboutMe > div > h3 {
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+
+.AboutMe > div > ul > li {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.AboutMe .aboutMeTopic {
+    position: absolute;
+    left: 450px;
+    top: 50px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.AboutMe .aboutMeTopic > h1 > span {
+    color: #E67E22;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+
+}
+
+.AboutMe .myDetails {
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    border: 2px solid gray;
+    border-radius: 0 30px 0 30px;
+}
+
+.AboutMe .myDetails > h3 {
+    font-size: 30px;
+    color: #E67E22;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.AboutMe .myDetails > p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+
+.AboutMe .btnContainer {
+    position: absolute;
+    left: 980px;
+    top: 430px;
+    width: 320px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.AboutMe .btnContainer > button:nth-child(1) {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    color: yellow;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.AboutMe .btnContainer > button:nth-child(2) {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    color: yellow;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.AboutMe .btnContainer > button:nth-child(1) > .fas {
+    color: yellow;
+    font-size: 20px;
+}
+
+.AboutMe .btnContainer > button:nth-child(2) > .fas {
+    color: yellow;
+    font-size: 20px;
+}
+
+.AboutMe .lastContainer {
+    position: absolute;
+    left: 700px;
+    top: 520px;
+    color: white;
+}
+
+.AboutMe .lastContainer > h3 {
+    color: yellow;
+    font-size: 30px;
+}
+
+/*-----------------------------About Me End----------------------------*/
+
+/*-----------------------------Skills Start----------------------------*/
+
+.Skills {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.Skills > img:nth-child(1) {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.Skills > .skillTopic > h1 {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    margin: auto;
+    color: #E67E22;
+    font-size: 70px;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Skills > .exp > p:nth-child(1) {
+    position: absolute;
+    left: 40%;
+    top: 60px;
+    margin: auto;
+    color: #E67E22;
+    font-size: 100px;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Skills > .exp > p:nth-child(2) {
+    position: absolute;
+    left: 49%;
+    top: 90px;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Skills > .completeProjects > p:nth-child(1) {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin: auto;
+    color: #E67E22;
+    font-size: 100px;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Skills > .completeProjects > p:nth-child(2) {
+    position: absolute;
+    left: 54%;
+    top: 28%;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Skills > .customers > p:nth-child(1) {
+    position: absolute;
+    left: 55%;
+    top: 35%;
+    margin: auto;
+    color: #E67E22;
+    font-size: 100px;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Skills > .customers > p:nth-child(2) {
+    position: absolute;
+    left: 59%;
+    top: 39%;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.Skills > .container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 90%;
+    height: 200px;
+    top: 60%;
+    left: 60px;
+}
+
+.Skills > .container > div {
+    width: 152px;
+    height: 75%;
+    border: 1px solid rgba(128, 128, 128, 0.78);
+    box-shadow: 1px 2px 3px rgb(255, 255, 255);
+    border-radius: 0 40% 40% 40%;
+    cursor: pointer;
+}
+
+.Skills > .container > div:hover {
+    border: 1px solid rgba(230, 126, 34, 0.8);
+    box-shadow: 1px 2px 3px rgba(230, 126, 34, 0.78);
+}
+
+.Skills > .container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skills > .container > div img {
+    width: 123px;
+}
+
+
+.scroll {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.scroll > div:nth-child(1) {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 100%;
+    background-color: #E67E22;
+}
+
+.scroll > div:nth-child(2) {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    left: 33%;
+    margin: auto;
+    border: 2px solid #E67E22;
+    border-radius: 100%;
+    box-shadow: 1px 2px 3px #E67E22;
+}
+
+.scroll > div:nth-child(3) {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+    background-color: #E67E22;
+}
+
+/*-----------------------------Skills End----------------------------*/
+
+/*-----------------------------Education Start----------------------------*/
+
+.Education {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.Projects > img:nth-child(1) {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/*-----------------------------Education End----------------------------*/
+
+/*-----------------------------Projects Start----------------------------*/
+
+.Projects {
+    position: relative;
+    width: 100%;
+    height: 136vh;
+}
+
+.Projects > img:nth-child(1) {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/*-----------------------------Projects End----------------------------*/
+
+/*-----------------------------Assignment Start-------------------------*/
+
+.Assignments {
+    position: relative;
+    width: 100%;
+    height: 146vh;
+}
+
+.Assignments > img:nth-child(1) {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.Assignments > .assignmentTopic {
+    position: absolute;
+    left: 8px;
+    top: 20px;
+    color: white;
+}
+
+.Assignments > .assignmentTopic > p  {
+    position: relative;
+    left: 30%;
+    top: 50px;
+    margin: auto;
+    color: #E67E22;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.box > .card {
+    height: 300px;
+    width: 250px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transition: all 0.1s;
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #E67E22;
+}
+
+h5 {
+    color: #F1C40F;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .buttonReadMore{
+    background-color: #E67E22;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .buttonReadMore:hover {
+    background-color: transparent;
+    border: 2px solid #E67E22;
+    cursor: pointer;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    top: 485px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.box2 > .card2 {
+    height: 300px;
+    width: 250px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.card2:hover {
+    transition: all 0.1s;
+    transform: scale(1.08);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card2 i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #E67E22;
+}
+
+h5 {
+    color: #F1C40F;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card2 .buttonReadMore {
+    background-color: #E67E22;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card2 .buttonReadMore:hover {
+    background-color: transparent;
+    border: 2px solid #E67E22;
+    cursor: pointer;
+}
+
+.moreAssignmentBtn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+    width: max-content;
+}
+
+.moreAssignmentBtn a {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.moreAssignmentBtn a:hover {
+    background-color: transparent;
+    border: 2px solid #E67E22;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*-----------------------------Assignment End----------------------------*/
+
+/*----------------------------Gallary Start----------------------------*/
+
+.gallary{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.gallary > img:nth-child(1) {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/*----------------------------Gallary End----------------------------*/
+
+/*----------------------------Contact Me Start----------------------------*/
+
+.ContactMe {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.ContactMe > img:nth-child(1) {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/*----------------------------Contact Me End----------------------------*/
+
+/*----------------------------Footer Start----------------------------*/
+
+footer {
+    position: relative;
+    transform: translatey(0);
+    height: 100px;
+    background-color: #191919;
+}
+
+footer #footer {
+    position: absolute;
+    top: 0;
+    left: 0;bottom: 0;
+    margin: auto;
+}
+
+footer > section > p {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 80%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*---------------------------Footer End----------------------------*/
+
+/*---------------------------Remove Scroll bar---------------------------*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*--------------------------------------------------------------------------*/
