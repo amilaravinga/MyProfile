@@ -477,7 +477,7 @@ body > main > .Home > img {
     width: 100%;
     height: 100vh;
 }
-.Projects > img:nth-child(1) {
+.Education > img:nth-child(1) {
     position: relative;
     width: 100%;
     height: 100%;
