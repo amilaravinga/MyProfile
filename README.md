@@ -1,6 +1,6 @@
 
 
-![My picture](asserts/images/gitProfilePicture.jpg)
+![My picture](Assets/images/gitProfilePicture.jpg)
 # hello I am Amila Ravinga .This is My Profile,
 
 <html>
