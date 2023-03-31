@@ -1,0 +1,226 @@
+:root {
+    --body_nth_child_width: 50vw;
+    --body_nth_child_height: 50vh;
+
+    --body_nth_child_First_Div_Width: 150px;
+    --body_nth_child_First_Div_height: 150px;
+
+    --body_nth_CHild_second_Div_width: 80px;
+    --body_nth_CHild_second_Div_height:80px;
+
+
+    --body_div_nth-child_width: 150px;
+    --body_div_nth-child_height: 150px;
+    --body_div_nth-child_background_color: white;
+    --body_div_nth-child_radious: 100%;
+
+    --body_div_nth-child_9_width:150px;
+    --body_div_nth-child_9_height:150px;
+    --body_div_nth-child_9_div_width:100px;
+    --body_div_nth-child_9_div_height:100px;
+}
+
+body > :nth-child(1){
+    background-color: red;
+    position: absolute;
+    width: var(--body_nth_child_width);
+    height: var(--body_nth_child_height);
+    left: 0;
+}
+
+body > :nth-child(1) > div {
+    position: absolute;
+    width: var(--body_nth_child_First_Div_Width);
+    height:  var(--body_nth_child_First_Div_height);
+    background-color: white;
+    border-radius: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+body > :nth-child(1) > div >div {
+    position: absolute;
+    width: var(--body_nth_CHild_second_Div_width);
+    height: var(--body_nth_CHild_second_Div_height);
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+body > :nth-child(2){
+    background-color: green;
+    position: absolute;
+    width: var(--body_nth_child_width);
+    height: var(--body_nth_child_height);
+    right: 0;
+}
+
+body > :nth-child(2) > div {
+    position: absolute;
+    width: var(--body_nth_child_First_Div_Width);
+    height:  var(--body_nth_child_First_Div_height);
+    background-color: white;
+    border-radius: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+body > :nth-child(2) > div >div {
+    position: absolute;
+    width: var(--body_nth_CHild_second_Div_width);
+    height: var(--body_nth_CHild_second_Div_height);
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+body > :nth-child(3){
+    background-color: yellow;
+    position: absolute;
+    width: var(--body_nth_child_width);
+    height: var(--body_nth_child_height);
+    left: 0;
+    bottom: 0%;
+}
+
+body > :nth-child(3) > div {
+    position: absolute;
+    width: var(--body_nth_child_First_Div_Width);
+    height:  var(--body_nth_child_First_Div_height);
+    background-color: white;
+    border-radius: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+body > :nth-child(3) > div >div {
+    position: absolute;
+    width: var(--body_nth_CHild_second_Div_width);
+    height: var(--body_nth_CHild_second_Div_height);
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+body > :nth-child(4){
+    background-color: purple;
+    position: absolute;
+    width: var(--body_nth_child_width);
+    height: var(--body_nth_child_height);
+    right: 0;
+    bottom: 0;
+}
+
+body > :nth-child(4) > div {
+    position: absolute;
+    width: var(--body_nth_child_First_Div_Width);
+    height:  var(--body_nth_child_First_Div_height);
+    background-color: white;
+    border-radius: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+body > :nth-child(4) > div >div {
+    position: absolute;
+    width: var(--body_nth_CHild_second_Div_width);
+    height: var(--body_nth_CHild_second_Div_height);
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+
+
+
+body > div:nth-child(5){
+    position: absolute;
+    z-index: 2;
+    background-color: var(--body_div_nth-child_background_color);
+    width: var(--body_div_nth-child_width);
+    height: var(--body_div_nth-child_height);
+    border-bottom-right-radius: var(--body_div_nth-child_radious);
+    left: 0;
+}
+
+body > div:nth-child(6){
+    position: absolute;
+    z-index: 2;
+    background-color: var(--body_div_nth-child_background_color);
+    width: var(--body_div_nth-child_width);
+    height: var(--body_div_nth-child_height);
+    border-bottom-left-radius: var(--body_div_nth-child_radious);
+    right: 0;
+}
+
+body > div:nth-child(7){
+    position: absolute;
+    z-index: 2;
+    background-color: var(--body_div_nth-child_background_color);
+    width: var(--body_div_nth-child_width);
+    height: var(--body_div_nth-child_height);
+    border-top-right-radius: var(--body_div_nth-child_radious);
+    bottom: 0;
+    left: 0;
+}
+
+body > div:nth-child(8){
+    position: absolute;
+    z-index: 2;
+    background-color: var(--body_div_nth-child_background_color);
+    width: var(--body_div_nth-child_width);
+    height: var(--body_div_nth-child_height);
+    border-top-left-radius: var(--body_div_nth-child_radious);
+    right: 0;
+    bottom: 0;
+}
+
+body > div:nth-child(9){
+    position: absolute;
+    width: var(--body_div_nth-child_9_width);
+    height: var(--body_div_nth-child_9_height);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    z-index: 2;
+    background-color: white;
+}
+
+body > div:nth-child(9) > div {
+    position: absolute;
+    width: var(--body_div_nth-child_9_div_width);
+    height: var(--body_div_nth-child_9_div_height);
+    border-radius: 100%;
+    background-color: red;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
