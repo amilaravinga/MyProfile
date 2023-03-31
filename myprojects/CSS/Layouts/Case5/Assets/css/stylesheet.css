@@ -1,0 +1,58 @@
+*{
+    box-sizing:  border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#one{
+    background-color: red;
+    border: 1px solid black;
+}
+#two{
+    background-color: green;
+    border: 1px solid black;
+}
+#three{
+    background-color: orange;
+    border: 1px solid black;
+}
+#four{
+    background-color: purple;
+    border: 1px solid black;
+}
+#five{
+    background-color: deeppink;
+    border: 1px solid black;
+}
+#six{
+    background-color: blue;
+    border: 1px solid black;
+}
+#seven{
+    background-color: brown;
+    border: 1px solid black;
+}
+#eight{
+    background-color: #ee82ef ;
+    border: 1px solid black;
+}
+#nine{
+    background-color:#4b0081;
+    border: 1px solid black;
+}
+#ten{
+    background-color: yellow;
+    border: 1px solid black;
+}
+#eleven{
+    background-color: gray;
+    border: 1px solid black;
+}
+#twelve{
+    background-color: aqua;
+    border: 1px solid black;
+}
