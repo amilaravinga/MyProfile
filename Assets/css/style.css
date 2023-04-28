@@ -9,9 +9,15 @@ body > main  img {
     width: 100vw;
     height: 100vh;
     z-index: 10;
-    opacity: 0.89;
+    opacity: 0.99;
     margin: auto;
 }
+
+/*--------------------REMOVE SCROLLBAR-----------------------*/
+::-webkit-scrollbar {
+    display: none;
+}
+
 
 /*--------------------Header CSS START-----------------------*/
 body > header  div:nth-child(1) {
@@ -105,11 +111,53 @@ body > main > div > button:hover {
 }
 
 
-    /*--------------------CONTACT ME BUTTON END-----------------------*/
+/*--------------------CONTACT ME BUTTON END-----------------------*/
 
+/*--------------------HOME START-----------------------*/
 
+body > main > .Home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
 
+body > main > .Home > img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
 
+#hi{
+    position: absolute;
+    color: #E67E22;
+    font-size: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 40%;
+    left: 10%;
+    z-index: 12;
+}
+
+#dash{
+    position: absolute;
+    color: #E67E22;
+    font-size: 130px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 33%;
+    left: 17%;
+    z-index: 12;
+}
+
+#name{
+    position: absolute;
+    color: #fff;
+    font-size: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 60%;
+    left: 10%;
+    z-index: 12;
+}
 
 
 
