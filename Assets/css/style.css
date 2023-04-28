@@ -1,0 +1,137 @@
+body > main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+body > main  img {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    opacity: 0.89;
+    margin: auto;
+}
+
+/*--------------------Header CSS START-----------------------*/
+body > header  div:nth-child(1) {
+    position: fixed;
+    z-index: 12;
+    width: 100vw;
+    height: 70px;
+}
+
+body > header > div > nav {
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 0;
+}
+
+body > header > div > nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+body > header > div > nav > ul > li {
+    display: inline-block;
+}
+
+body > header > div > nav > ul > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #E67E22;
+    text-decoration-width:auto;
+}
+
+
+body > header > div > nav > ul > li > a{
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    list-style: none;
+    text-decoration:none;
+    color: #eeeeee;
+    padding-right: 20px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+body > header div:nth-child(2) > img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    left: 0;
+}
+
+body > header  div:nth-child(3){
+    position: fixed;
+    z-index: -3;
+    width: 100%;
+    height: 70px;
+    background-color: #E67E22;
+    opacity: 0.07;
+}
+
+/*--------------------Header CSS END-----------------------*/
+
+/*--------------------CONTACT ME BUTTON START-----------------------*/
+body > main > div {
+    position: fixed;
+    width: 135px;
+    height: 45px;
+    right: 30px;
+    bottom: 40%;
+    transform: translateX(0%);
+    z-index: 13;
+}
+
+body > main > div > button {
+    position: relative;
+    width: 100%;
+    height: 68%;
+    background-color:#F1C40F ;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+body > main > div > button:hover {
+    background-color: transparent;
+    border: 2px solid #F1C40F;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+    /*--------------------CONTACT ME BUTTON END-----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------Footer CSS----------------------------------------*/
+
+body > footer {
+    position: relative;
+    z-index: 20;
+}
+body > footer > section > p {
+    color: white;
+}
+
+
+
